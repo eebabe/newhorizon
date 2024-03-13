@@ -95,7 +95,7 @@ body {
 }
 
 body.boxed-layout {
-  background: url(/img/background1.jpg) no-repeat center center fixed; 
+  background: url("img/background1.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -513,7 +513,7 @@ SECTION
 .customtitle {
     padding: 30px 25px 25px;
     position: absolute;
-    background: #867461 url("/img/gr.png") repeat scroll center center !important;
+    background: #867461 url("img/gr.png") repeat scroll center center !important;
     bottom: -25px;
     top: auto;
     border: 3px solid #070a0a !important;
