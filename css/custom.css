@@ -1,0 +1,66 @@
+/* your styles go here */
+* {
+    box-sizing: inherit;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.album-wrapper .title {
+    margin: 0;
+    text-align: center;
+}
+.blog-title h3 {
+    color: #ffffff;
+    text-align: center;
+}
+.blog-title h3 small {
+    color: #867461;
+}
+.customtitle {
+    bottom: 20px;
+}
+.customtitle h2 {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .customtitle h2 {
+        font-size: 1.75rem;
+        line-height: 1.75;
+    }
+    .first-section {
+        height: 420px;
+    }
+    .header {
+        padding: 20px 0 0;
+    }
+}
+.navbar-brand {
+    font-family: 'the_frontmanregular';
+    margin-top: 15px;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand i {
+    color: #867461;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #867461;
+}
+.parallax {
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+.teambox .member img.instrument {
+    border: none;
+    border-radius: 0;
+    right: 40px;
+    top: 40px;
+}
